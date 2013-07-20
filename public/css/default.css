@@ -1,0 +1,72 @@
+/* Large desktop */
+@media (min-width: 980px) { 
+  body {
+   padding-top: 60px;
+  }
+ .linediv-l {
+   border-right: 1px white solid;
+  }
+ .linediv-r {
+   border-left: 1px white solid;
+ }
+}
+
+@media (min-width: 480px) { 
+ .home-hero {
+    font-family: "Andika";
+    font-size: 36;
+    color: white;
+    background-image: url('img/bgDog.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -19px;
+    padding: 180px;
+    text-align : center;
+    text-shadow: 1px 1px 1px #000;
+}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+ .copy {
+   padding: 2.5% 10%;
+ }
+ .linediv-l {
+   border-bottom: 1px white solid;
+ }
+ .linediv-r {
+   border-top: 1px white solid;
+ }
+ 
+ .home-hero {
+    font-family: "Andika";
+    font-size: 36;
+    color: white;
+    background-image: url('img/bgDog480.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -19px;
+    padding: 10px;
+    text-align : center;
+    text-shadow: 1px 1px 1px #000;
+}
+}
+
+
+
+
+.footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    color: #999;
+    border-top: solid 1px #ddd;
+}
+
+.footer > p {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
+.form-register {
+	width: 350px;	
+}
+     
